@@ -1,9 +1,9 @@
 @charset "utf-8";
-@import url(iconfont/iconfont.css);
+@import url(//at.alicdn.com/t/font_1439388239_24372.css);
 
 
 html{*border:none;;overflow-y:scroll; overflow-x:auto;height: 100%;width: 100%;position: relative;}
-body{margin:0;font:normal 12px/1.5 Helvetica,Arial,Tahoma,sans-serif;color:#333;width: 100%;min-height:100%; background: #fff;}
+body{margin:0;font:normal 12px/1.5 Helvetica,Arial,Tahoma,sans-serif;color:#333;width: 100%;min-height:100%; background: #fafafa;}
 h1,h2,h3,h4,h5,h6,ol,ul,p,form,dl{margin-top:0;margin-bottom:0}
 img{border:none;vertical-align:top;}
 cite,em{font-style: normal;}
@@ -30,21 +30,118 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 
 
 
+/*公共样式*/
+.center{position: relative;width: 1164px;margin: 0 auto;}
 
-.center{position: relative;width: 1064px;margin: 0 auto;}
 
 
+/*顶部*/
 .header_top{height: 26px;line-height: 26px;background: #ebebeb;border-bottom: 1px solid #c7c7c7;text-align: right;}
 .header_top a{display: inline-block; margin-left: 10px;}
 .header_top a.fl{margin-left: 0; margin-right: 20px;}
+.header_top a:hover{color: #E95330;}
 
 
-.header{height: 92px;line-height: 92px; border-bottom: 1px solid  #ddd;color: #666;font-size: 18px;}
+
+/*头部*/
+.header{height: 90px;line-height: 90px; border-bottom: 1px solid  #ddd;color: #333;font-size: 18px;}
+.header a{display: inline-block;vertical-align: top;}
 .header img{vertical-align: middle;margin-right: 20px;}
+.header span{position: absolute;right: 0;top: 50%;margin-top: -20px;border-radius: 20px;padding: 0 15px;font-size: 14px; height: 40px;line-height: 40px;background: #38d0c7;color: #fff;}
+.header span em{font-size: 22px;vertical-align: baseline;}
+.header span i{margin-left: 5px;}
 
-.location{height: 80px;line-height: 80px;font-size: 14px;}
-.location>i{font-size: 12px;color: #999;}
+
+
+
+
+/*导航*/
+.location{height: 80px;line-height: 80px;font-size: 14px;background: #399aef;color: #fff;}
+.location i{font-size: 12px;color: #fff;width: 14px;margin: 0 10px;}
 .location_back{position: absolute;top: 0;right: 0;color: #e20011; font-size: 30px;}
+
+
+/*首页*/
+.banner_index{background: #399aef;}
+
+.features {position: relative;width: 100%; overflow: hidden; height: 765px; text-align: center;background: url(../images/features_bkg.png) no-repeat center center;}
+.features cite{width: 1800px;position: relative;left: 50%;margin-left: -900px;}
+.features a{width: 460px;height: 184px; margin-top: 100px;margin-bottom: 100px; position: relative;white-space: normal; }
+.features strong{display: block;font-size: 30px;line-height: 32px;padding: 16px 0; color: #333;}
+.features span{color: #8a8a8a;font-size: 18px;}
+
+.data{overflow: hidden; text-align: right;border-top:1px solid #ddd;height: 180px; padding: 20px 0;background: #e9f1f3;}
+.data i{font-size: 42px;color: #00cfd9;margin-right: 20px;}
+.data dl{display: inline-block; text-align: left;max-width: 430px;}
+.data dt{font-size: 18px;margin-bottom: 5px;line-height: 30px;padding-top: 10px;}
+.data dd{display: inline-block;min-width: 210px;font-size: 14px;line-height: 22px;}
+
+
+
+
+
+/*交付管理*/
+.deliver{padding: 30px 0 30px 50px;}
+.deliver dl{position: relative;overflow: hidden; padding-bottom: 20px;border-bottom: 1px solid #e6e6e6;}
+.deliver dt{float: left; width: 150px;margin-top: 20px;text-align: center;line-height: 30px; font-size: 18px;color: #333;}
+.deliver dt span{display: block;line-height: 40px;}
+.deliver dd{overflow: hidden;margin-left: 180px;font-size: 14px;color: #999;padding: 20px 0;}
+.deliver dd span{float: left; width: 168px;text-align: center;line-height: 30px;}
+.deliver dd span i{ display: block;position: relative;z-index: 1; width: 5px;height: 5px;margin: -9px auto 10px; border-radius: 10px;background: #fff; border:5px solid #3498db;behavior:url(styles/pie.htc);}
+.deliver dd h6{position: relative;overflow: hidden; width: 180px;height: 24px;line-height: 24px;border:1px solid #66c7e8;color: #66c7e8;border-radius: 5px; font-weight: normal;font-size: 14px;}
+.deliver dd h6 a{float: left;width: 50%;text-align: center;}
+.deliver dd h6 a.active,.deliver dd h6 a:hover{ color: #fff;background: #66c7e8;}
+.deliver dd cite{position: relative;float: left;margin-left: -40px;margin-top: 30px;border-top:4px solid #3498db;}
+.deliver dd cite:before{content: '';position: absolute; left: 0;top: -6px; height: 10px;width: 84px;background: #fafafa;}
+.deliver dd cite:after{content: '';position: absolute;right: 0;top: -6px; height: 10px;width: 84px;background: #fafafa;}
+
+.deliver dl.deliver_type1 dd span i{border-color: #92bcd5;}
+.deliver dl.deliver_type1 dd cite{border-color: #92bcd5;}
+.deliver dl.deliver_type2 dd span i{border-color: #00bfc0;}
+.deliver dl.deliver_type2 dd cite{border-color: #00bfc0;}
+.deliver dl.deliver_type3 dd span i{border-color: #e55447;}
+.deliver dl.deliver_type3 dd cite{border-color: #e55447;}
+.deliver dl.deliver_type4 dd span i{border-color: #ffac31;}
+.deliver dl.deliver_type4 dd cite{border-color: #ffac31;}
+.deliver dl.deliver_type5 dd span i{border-color: #4d95cb;}
+.deliver dl.deliver_type5 dd cite{border-color: #4d95cb;}
+
+
+
+
+/*讲师管理*/
+.teacher{padding: 50px 0 30px 50px;}
+.teacher dl{position: relative;overflow: hidden; padding-bottom: 20px;padding-top: 20px;border-bottom: 1px solid #e6e6e6;}
+.teacher dt{float: left; width: 150px;text-align: center;line-height: 30px; font-size: 18px;color: #333;}
+.teacher dt span{display: block;line-height: 40px;}
+.teacher dd{overflow: hidden;margin-left: 180px;font-size: 14px;color: #999;padding: 20px 0;}
+.teacher dd a{display: inline-block;position: relative; vertical-align: top;line-height: 36px;padding: 0 20px; margin-right: 30px;border:2px solid #92bcd5;border-radius: 20px;}
+.teacher dd a:hover{background: #92bcd5;color: #fff;}
+
+
+.teacher dl.teacher_type1 dd a{border-color: #92bcd5;}
+.teacher dl.teacher_type1 dd a:hover{background: #92bcd5;}
+.teacher dl.teacher_type2 dd a{border-color: #00bfc0;}
+.teacher dl.teacher_type2 dd a:hover{background: #00bfc0;}
+.teacher dl.teacher_type3 dd a{border-color: #e55447;}
+.teacher dl.teacher_type3 dd a:hover{background: #e55447;}
+.teacher dl.teacher_type4 dd a{border-color: #4d95cb;}
+.teacher dl.teacher_type4 dd a:hover{background: #4d95cb;}
+.teacher dl.teacher_type5 dd a{border-color: #ffac31;}
+.teacher dl.teacher_type5 dd a:hover{background: #ffac31;}
+
+
+/*项目管理*/
+.project{margin-top: 100px;}
+.project h2{line-height: 100px;text-align: center;font-weight: normal;border-bottom: 1px solid #ddd;padding-bottom: 50px;}
+.project h2 a{display: inline-block;position: relative;margin: 0 25px;width: 350px;background: #e5e5e5;color: #333;font-size: 28px;border-radius: 10px;}
+.project h2 a.active{background: #6abae2;color: #fff;}
+.project_cnt{margin-top: 100px; border:1px solid #ddd;background: #fff;height: 550px;text-align: center;}
+.project_cnt:before{content: '';width: 1px;height: 100%;display: inline-block;vertical-align: middle;}
+.project_cnt h6{display: inline-block;vertical-align: middle;font-size: 28px;color: #999;}
+
+
+
 
 .willdo{overflow: hidden;}
 .willdo_number {display: inline-block;float: left; background: #deebe4;padding: 4px;}
@@ -55,49 +152,17 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .willdo_time p{position: absolute;right: 10px;top: 20px;text-transform:Uppercase; text-align: right;font-size: 18px;line-height: 26px;color: #fff;}
 
 
-.features {text-align: center;}
-.features a{display: inline-block;position: relative; vertical-align: top; margin: 100px 70px 0;text-align: center; width: 190px;height: 190px;border-radius: 95px;background: #66c7e8;box-shadow: 0 -3px 3px #ccc;behavior:url(styles/pie.htc);}
-.features i{font-size: 60px;line-height: 100px;padding-top: 16px;color: #fff;}
-.features i img{vertical-align: middle;}
-.features span{display: block;position: relative;margin: 0 3px;font-size: 20px;color: #fff;line-height: 70px; border-top: 1px dashed #5cb4d2;}
-.features span:before{content: '';position: absolute;left: 0;top: 0;width: 100%;border-top: 1px dashed #83d2ec;}
-
-.features a.disable{background: #f6f6f6;border:1px solid #d4d4d4;}
-.features a.disable span{border-top:1px dashed #d3d3d3;color: #999; }
-.features a.disable span:before{border-top: 1px dashed #fefefe;}
-
-
-.data{overflow: hidden;margin-top: 100px; text-align: right;border:1px solid #ddd;padding: 20px 50px;}
-.data i{font-size: 42px;color: #00a1d9;margin-right: 20px;}
-.data dl{display: inline-block; text-align: left;max-width: 430px;}
-.data dt{font-size: 18px;margin-bottom: 5px;line-height: 30px;padding-top: 10px;}
-.data dd{display: inline-block;min-width: 210px;font-size: 14px;line-height: 22px;}
 
 
 
-.deliver{border: 1px solid #ddd;padding: 30px 0 30px 50px;}
-.deliver dl{position: relative;padding-bottom: 20px;}
-.deliver dl:before{content: '';position: absolute;left: 0;top: 0;height: 100%;width: 0;border-left: 1px dashed #e5e5e5;}
-.deliver dt{position: relative;margin-left: -12px;line-height: 20px; font-size: 18px;margin-bottom: 10px;}
-.deliver dt i{font-size: 24px;vertical-align: 0px;margin-right: 5px;}
-.deliver dd{overflow: hidden; background: #faf9f9;margin-left: 10px; padding: 20px;font-size: 14px;color: #999;}
-.deliver dd span{float: left; width: 168px;text-align: center;line-height: 30px;}
-.deliver dd span i{ display: block;position: relative;z-index: 1; width: 5px;height: 5px;margin: -9px auto 10px; border-radius: 10px;background: #fff; border:5px solid #3498db;behavior:url(styles/pie.htc);}
-.deliver dd h6{font-weight: normal;font-size: 14px;}
-.deliver dd h6 a.active,.deliver dd h6 a:hover{color: #3498db}
-.deliver dd cite{position: relative;float: left;margin-left: -20px;margin-top: 15px;border-top:4px solid #3498db;}
-.deliver dd cite:before{content: '';position: absolute; left: 0;top: -6px; height: 10px;width: 84px;background: #faf9f9;}
-.deliver dd cite:after{content: '';position: absolute;right: 0;top: -6px; height: 10px;width: 84px;background: #faf9f9;}
-
-.deliver dl.last:before{display: none;}
 
 
-.subfooter{height: 60px;line-height: 60px;background: #fbfcfe;margin-top: 200px;font-size: 18px;}
+.subfooter{height: 60px;line-height: 60px;background: #fbfcfe;font-size: 18px;}
 .subfooter a{display: inline-block;margin-right: 20px; color: #333;}
 .subfooter a:hover{color: #00a1d9;}
 
 
-.footer{height: 140px;line-height: 140px;text-align: center;color: #fff;font-size: 24px;background: #454545;}
+.footer{height: 60px;line-height: 60px;text-align: center;color: #333;font-size: 14px;background: #ebebeb;}
 
 
 
