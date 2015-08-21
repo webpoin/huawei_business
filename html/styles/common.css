@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url(//at.alicdn.com/t/font_1439388239_24372.css);
+/*@import url(//at.alicdn.com/t/font_1439388239_24372.css);*/
 
 
 html{*border:none;;overflow-y:scroll; overflow-x:auto;height: 100%;width: 100%;position: relative;}
@@ -13,8 +13,37 @@ a{text-decoration:none;white-space:nowrap;color: inherit;}
 header,nav,section,article,footer,cite{display:block;margin:0;}
 
 
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont/iconfont.eot'); /* IE9*/
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
 /*font-icon*/
 i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+
+.icon-xiangyou:before { content: "\e60e"; }
+.icon-icon:before { content: "\e60f"; }
+.icon-14:before { content: "\e600"; }
+.icon-13:before { content: "\e601"; }
+.icon-12:before { content: "\e602"; }
+.icon-11:before { content: "\e603"; }
+.icon-10:before { content: "\e604"; }
+.icon-9:before { content: "\e605"; }
+.icon-8:before { content: "\e606"; }
+.icon-7:before { content: "\e607"; }
+.icon-6:before { content: "\e608"; }
+.icon-5:before { content: "\e609"; }
+.icon-4:before { content: "\e60a"; }
+.icon-3:before { content: "\e60b"; }
+.icon-2:before { content: "\e60c"; }
+.icon-1:before { content: "\e60d"; }
+
+
+
 
 
 /*global*/
@@ -47,7 +76,7 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .header{height: 70px;line-height: 70px; border-bottom: 1px solid  #ddd;color: #333;font-size: 18px;}
 .header a{display: inline-block;vertical-align: top;}
 .header img{vertical-align: -13px;margin-right: 20px;width: 40px;}
-.header span{display: none; position: absolute;right: 0;top: 50%;margin-top: -20px;border-radius: 20px;padding: 0 15px;font-size: 14px; height: 40px;line-height: 40px;background: #38d0c7;color: #fff;behavior:url(styles/pie.htc);}
+.header span{ position: absolute;right: 0;top: 50%;margin-top: -20px;border-radius: 20px;padding: 0 15px;font-size: 14px; height: 40px;line-height: 40px;background: #38d0c7;color: #fff;behavior:url(styles/pie.htc);}
 .header span em{font-size: 22px;vertical-align: baseline;}
 .header span i{margin-left: 5px;}
 
