@@ -100,15 +100,25 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .deliver dd cite:after{content: '';position: absolute;right: 0;top: -6px; height: 10px;width: 84px;background: #fafafa;}
 
 .deliver dl.deliver_type1 dd span i{border-color: #92bcd5;}
+.deliver dl.deliver_type1 dd a:hover{color: #92bcd5;}
 .deliver dl.deliver_type1 dd cite{border-color: #92bcd5;}
+.deliver dl.deliver_type1 dd a:hover{color: #92bcd5;}
 .deliver dl.deliver_type2 dd span i{border-color: #00bfc0;}
+.deliver dl.deliver_type2 dd a:hover{color: #00bfc0;}
 .deliver dl.deliver_type2 dd cite{border-color: #00bfc0;}
+.deliver dl.deliver_type2 dd a:hover{color: #00bfc0;}
 .deliver dl.deliver_type3 dd span i{border-color: #e55447;}
+.deliver dl.deliver_type3 dd a:hover{color: #e55447;}
 .deliver dl.deliver_type3 dd cite{border-color: #e55447;}
+.deliver dl.deliver_type3 dd a:hover{color: #e55447;}
 .deliver dl.deliver_type4 dd span i{border-color: #ffac31;}
+.deliver dl.deliver_type4 dd a:hover{color: #ffac31;}
 .deliver dl.deliver_type4 dd cite{border-color: #ffac31;}
+.deliver dl.deliver_type4 dd a:hover{color: #ffac31;}
 .deliver dl.deliver_type5 dd span i{border-color: #4d95cb;}
+.deliver dl.deliver_type5 dd a:hover{color: #4d95cb;}
 .deliver dl.deliver_type5 dd cite{border-color: #4d95cb;}
+.deliver dl.deliver_type5 dd a:hover{color: #4d95cb;}
 
 
 
