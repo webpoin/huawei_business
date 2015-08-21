@@ -76,7 +76,7 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .data dl{display: inline-block; text-align: left;max-width: 430px;font-weight: bold;}
 .data dl em{font-style: normal;font-weight: normal;}
 .data dt{font-size: 18px;margin-bottom: 5px;line-height: 30px;padding-top: 10px;}
-.data dd{display: inline-block;min-width: 210px;font-size: 14px;line-height: 22px;}
+.data dd{display: inline-block;min-width: 210px;font-size: 14px;line-height: 22px;color: #666;}
 
 
 
@@ -136,7 +136,7 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 
 /*项目管理*/
 .project{margin-top: 100px;}
-.project h2{line-height: 100px;text-align: center;font-weight: normal;border-bottom: 1px solid #ddd;padding-bottom: 50px;}
+.project h2{line-height: 100px;text-align: center;font-weight: normal;padding-bottom: 50px;}
 .project h2 a{display: inline-block;position: relative;margin: 0 25px;width: 350px;background: #e5e5e5;color: #333;font-size: 28px;border-radius: 10px;behavior:url(styles/pie.htc);}
 .project h2 a.active{background: #6abae2;color: #fff;}
 .project_cnt{margin-top: 100px; border:1px solid #ddd;background: #fff;height: 550px;text-align: center;}
