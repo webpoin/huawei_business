@@ -67,7 +67,9 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .features {position: relative; overflow: hidden; padding-bottom: 22px; text-align: center;background: url(../images/features_bkg.png) no-repeat center center;}
 .features a{float: left;width: 33.33%;  height: 170px; padding: 40px 0; position: relative;white-space: normal; }
 .features a:hover{background: #f1f1f1;}
-.features img{max-height: 76px;max-width: 90px;}
+.features em{display: block;height: 78px;text-align: center;white-space: nowrap;}
+.features em:before{content: '';width: 1px;height: 100%;display: inline-block;vertical-align: middle;}
+.features img{vertical-align: middle; max-height: 76px;max-width: 90px;}
 .features strong{display: block;font-size: 26px;line-height: 28px;padding: 16px 0 10px; color: #333;}
 .features span{color: #8a8a8a;font-size: 16px;}
 
